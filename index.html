@@ -30,7 +30,7 @@
         <a href="#" class="icon-cart" id="cart"></a>
       </div>
     </header>
-    <a class="main-btn" id="changeTheme" onclick="changeThemeFunc()">Dark</a>
+  
     <!-- End Header -->
     <!-- Start Home -->
     <section class="home" id="home">
@@ -621,21 +621,5 @@
     <!-- End footer -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-      let menu = document.querySelector("#bars-menu");
-      let navbar = document.querySelector(".navbar");
-      let theme = document.getElementById("changeTheme");
-      let section = document.getElementsByTagName(section);
-      // Show And Hide Menu
-      menu.onclick = () => {
-        menu.classList.toggle("icon-star-full");
-        navbar.classList.toggle("active");
-      };
-      function changeThemeFunc() {
-        // section.classList.toggle("dark")
-        console.log("Hello")
-
-      }
-    </script>
   </body>
 </html>
